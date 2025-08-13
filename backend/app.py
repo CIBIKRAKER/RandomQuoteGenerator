@@ -1,4 +1,4 @@
-print("Hello JS")
+print("Hello World")
 
 print("Hello Python")
 
