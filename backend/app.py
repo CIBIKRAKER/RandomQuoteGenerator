@@ -1,6 +1,8 @@
-print("Hello World")
+from flask import Flask
 
-print("Hello Python")
+app = Flask(__name__)
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
 
 
-print("Hello Earth!")
