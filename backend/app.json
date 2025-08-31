@@ -1,9 +1,9 @@
 [
-  {"id": 1, "quote": "Stay hungry, stay foolish."},
-  {"id": 2, "quote": "Code is like humor. When you have to explain it, it’s bad."},
-  {"id": 3, "quote": "Fix the cause, not the symptom."},
-  {"id": 4, "quote": "Simplicity is the soul of efficiency."},
-  {"id": 5, "quote": "Experience is the name everyone gives to their mistakes."},
-  {"id": 6, "quote": "In order to be irreplaceable, one must always be different."},
-  {"id": 7, "quote": "Programs must be written for people to read, and only incidentally for machines to execute."}
+  {"id": 2, "text": "Code is like humor. When you have to explain it, its bad."},
+  {"id": 3, "text": "Fix the cause, not the symptom."},
+  {"id": 4, "text": "Simplicity is the soul of efficiency."},
+  {"id": 5, "text": "Experience is the name everyone gives to their mistakes."},
+  {"id": 1, "text": "Stay hungry, stay foolish."},
+  {"id": 6, "text": "In order to be irreplaceable, one must always be different."},
+  {"id": 7, "text": "Programs must be written for people to read, and only incidentally for machines to execute."}
 ]
