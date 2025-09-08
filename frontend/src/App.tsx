@@ -6,17 +6,32 @@ import LinkedInLogo from './img/linkedin.png';
 interface QuoteType {
   id: number;
   text: string;
+  character: string;
 }
 
 function App() {
 
   const [quote, setQuote] = useState<QuoteType | null>(null)
+  const [lastId, setLastId] = useState<number | null>(null);
+
 
   async function getData(){
-    const randomId = Math.floor(Math.random() * 7) + 1;
+
+
+    let randomId;
     const params = new URLSearchParams();
-    const url = `http://localhost:5000/quote?id=${randomId}`;
+
+    do{
+      randomId = Math.floor(Math.random() * 7) + 1;
+    } while(randomId === lastId);
     
+    setLastId(randomId);
+    
+
+    const url = `http://localhost:5000/quote?id=${randomId}`;
+
+    
+
     try {
       const response = await fetch(url);
       if(!response.ok){
@@ -46,6 +61,7 @@ function App() {
       <main className="App-main">
         <div className="quote-container">
           <p>{quote.text}</p>
+          <h2>Character: {quote.character}</h2>
         </div>
         <button className="quote-button" onClick={() => getData()}>Get Another Quote</button>
       </main>

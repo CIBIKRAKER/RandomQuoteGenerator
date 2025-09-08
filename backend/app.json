@@ -1,9 +1,38 @@
 [
-  {"id": 2, "text": "Code is like humor. When you have to explain it, its bad."},
-  {"id": 3, "text": "Fix the cause, not the symptom."},
-  {"id": 4, "text": "Simplicity is the soul of efficiency."},
-  {"id": 5, "text": "Experience is the name everyone gives to their mistakes."},
-  {"id": 1, "text": "Stay hungry, stay foolish."},
-  {"id": 6, "text": "In order to be irreplaceable, one must always be different."},
-  {"id": 7, "text": "Programs must be written for people to read, and only incidentally for machines to execute."}
+  {
+    "id": 1,
+    "text": "Do not fear death. Be afraid of the unlived life. You don’t have to live forever, you just have to live.",
+    "character": "Vagabond"
+  },
+  {
+    "id": 2,
+    "text": "I’m not gonna run away, I never go back on my word! That’s my nindo: my ninja way!",
+    "character": "Naruto Uzumaki"
+  },
+  {
+    "id": 3,
+    "text": "By experiencing both, victory and defeat, running away and shedding tears, a man will become a man.",
+    "character": "Musashi Miyamoto"
+  },
+  {
+    "id": 4,
+    "text": "When do you think people die? When they are shot with a bullet? No. When they eat a soup made from a poisonous mushroom? No. People die…when they are forgotten.",
+    "character": "Dr. Hiluluk"
+  },
+  {
+    "id": 5,
+    "text": "Power isn’t will. It’s the phenomenon of physically making things happen.",
+    "character": "Edward Elric"
+  },
+  {
+    "id": 6,
+    "text": "I want to see the world… and I want to be free!",
+    "character": "Monkey D. Luffy"
+  },
+  {
+    "id": 7,
+    "text": "A lesson without pain is meaningless. That’s why I will bear this pain… and move forward.",
+    "character": "Guts"
+  }
 ]
+
